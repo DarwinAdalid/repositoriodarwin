@@ -1,0 +1,22 @@
+.bg-colorPrincipal {
+    background-color: #7aec7a;
+    color: rgb(20, 59, 117);
+}
+
+.bg-colorOscuro {
+    background-color: #2c8597;
+}
+
+.btn-outline-colorPrincipal {
+    border-color: #7aec7a;
+    color: #2c8597;
+}
+
+.btn-outline-colorPrincipal:hover {
+    background-color: #7aec7a;
+    color: #2c8597;
+}
+
+.bg-colorNuevo:hover {
+    background-color: #7fffd4;
+}

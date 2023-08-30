@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web con Booststrap</title>
+    <meta name="description" content="Segundo ejercicio web, pero con booststrap">
+    <meta name="keywords" content="Booststrap, ejecicio, web">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-colorPrincipal">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4" href="#">
+                    <img src="assets/img/logo.png" alt="LogoSupraMarket" width="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Carnicería</a>
+                        </li>
+                        <a class="nav-link" aria-current="page" href="#">Botillería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Limpieza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Lácteos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Mascotas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-cart-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/slider1.png" class="d-block w-100" alt="Promoción Cyber">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider2.png" class="d-block w-100" alt="Descuentos Agosto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider3.png" class="d-block w-100" alt="Obten tu tarjeta">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider1.png" class="d-block w-100" alt="Super Oferta">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="my-5 px-5">
+            <h2>Limpieza</h2>
+            <article class="py-3 px-5 d-flex justify-content-start flex-row gap-3">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6">
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza1.jpg" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>1.590</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2">1.190</h5>
+                            <p class="card-text mb-0">Clorinda</p>
+                            <h5 class="card-title">Cloro</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza2.jpg" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>1.990</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2">1.360</h5>
+                            <p class="card-text mb-0">Cif</p>
+                            <h5 class="card-title">Lavaloza</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza3.png" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>4.749</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2">3.390</h5>
+                            <p class="card-text mb-0">OMO</p>
+                            <h5 class="card-title">Detergente</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza4.png" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>2.150</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2"></h5>1.990</h5>
+                            <p class="card-text mb-0">Quix</p>
+                            <h5 class="card-title">Lavaloza</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza5.jpg" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>2.430</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2">1.790</h5>
+                            <p class="card-text mb-0">Soft</p>
+                            <h5 class="card-title">Suavizante</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded-4 overflow-hidden col mb-4 mb-lg-0">
+                        <img class="card-img-top mt-3 px-3" src="assets/img/limpieza6.jpg" alt="Cloro Clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-0"><del>2.990</del></h6>
+                            <h5 class="card-title text-primary mb-3 ms-2">2.690</h5>
+                            <p class="card-text mb-0">Ariel</p>
+                            <h5 class="card-title">Detergente</h5>
+                            <div class="d-grid mt-4">
+                                <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="my-3 px-5">
+        </section>
+        <section class="container-fluid">
+            <article class="row bg-colorPrincipal">
+                <a class="col-12 col-md nav-link mb-1 mx-3 btn bg-colorNuevo mt-2" href="">Carnicería</a>
+                <a class="col-12 col-md nav-link mb-1 mx-3 btn bg-colorNuevo mt-2" href="">Botillería</a>
+                <a class="col-12 col-md nav-link mb-1 mx-3 btn bg-colorNuevo mt-2" href="">Limpieza</a>
+                <a class="col-12 col-md nav-link mb-1 mx-3 btn bg-colorNuevo mt-2" href="">Lácteos</a>
+                <a class="col-12 col-md nav-link mb-1 mx-3 btn bg-colorNuevo mt-2" href="">Mascotas</a>
+            </article>
+        </section>
+        <h2 class="my-3 px-5">Puede que te guste</h2>
+        <section class="row py-3 mx-0 g-4">
+            <div class="mx-auto mb-3 col-10 col-md-4 col-xl-4">
+                <div class="card shadow overflow-hidden">
+                    <img src="assets/img/bandeja-huevos.jpg" class="card-img-top" alt="Carnes Premium">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3 ms-0 text-colorDestacado">Bandeja de Huevos 20 Unidades</h5>
+                        <p class="card-text">20 huevos Extra Color de gallinas libres de jaula.una opción ideal para
+                            aquellos que buscan calidad y frescura en cada desayuno...</p>
+                        <div class="d-grid mt-4">
+                            <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto mb-3 col-10 col-md-4 col-xl-4">
+                <div class="card shadow overflow-hidden">
+                    <img src="assets/img/Chocolate-Hershey-s-leche-92-g.jpg" class="card-img-top" alt="Carnes Premium">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3 ms-0 text-colorDestacado">Chocolates Hershey's</h5>
+                        <p class="card-text">Barra de chocolate exquisita barra de chocolate cookies and cream Especial
+                            para degustar su increíble sabor y compartirlo (o tal vez no)</p>
+                        <div class="d-grid mt-4">
+                            <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto mb-3 col-10 col-md-4 col-xl-4">
+                <div class="card shadow overflow-hidden">
+                    <img src="assets/img/pizza.jpg" class="card-img-top" alt="Carnes Premium">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3 ms-0 text-colorDestacado">Pizza Peperoni PF</h5>
+                        <p class="card-text">La Deliciosa Pizza Salame es entre las clásicas, un éxito seguro en cada
+                            ocasión. Con una buena base crujiente, sabroso Pepperoni...</p>
+                        <div class="d-grid mt-4">
+                            <a href="#" class="btn btn-outline-colorPrincipal rounded-pill">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-colorOscuro">
+            <section class="container-fluid py-5 pd-2">
+                <article class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center text-light">
+                    <div class="col mb-5 mb-lg-0">
+                        <h4 class="mb-4">Centro de Ayuda</h4>
+                        <a class="nav-link mb-2" href="">Problemas con tu pedido</a>
+                        <a class="nav-link mb-2" href="">Información de pago</a>
+                        <a class="nav-link mb-2" href="">Servicio al cliente</a>
+                        <a class="nav-link mb-2" href="">Cómo modificar mis datos</a>
+                    </div>
+                    <div class="col mb-5 mb-lg-0">
+                        <h4 class="mb-4">Supramarket</h4>
+                        <a class="nav-link mb-2" href="">Locales supramarket</a>
+                        <a class="nav-link mb-2" href="">Proovedores</a>
+                        <a class="nav-link mb-2" href="">Artículos legales</a>
+                    </div>
+                    <div class="col mb-5 mb-lg-0">
+                        <h4 class="mb-4">Sucursales</h4>
+                        <h5 class="mb-0">Pie Andino</h5>
+                        <p class="mb-2">Avenida paseo pie andino 4770</p>
+                        <h5 class="mb-0">Chamisero</h5>
+                        <p class="mb-2">Av. Santa María 14.601</p>
+                        <h5 class="mb-0">Independencia</h5>
+                        <p class="mb-2">Av Independencia 565</p>
+                    </div>
+                    <div class="col">
+                        <h4 class="mb-4">Síguenos</h4>
+                        <a class="nav-link d-inline-block fs-3 px-2 bg-colorNuevo" href=""><i
+                                class="bi bi-facebook"></i></a>
+                        <a class="nav-link d-inline-block fs-3 px-2 bg-colorNuevo" href=""><i
+                                class="bi bi-instagram"></i></a>
+                        <a class="nav-link d-inline-block fs-3 px-2 bg-colorNuevo" href=""><i
+                                class="bi bi-twitter"></i></a>
+                        <a class="nav-link d-inline-block fs-3 px-2 bg-colorNuevo" href=""><i
+                                class="bi bi-youtube"></i></a>
+                    </div>
+                </article>
+                <article class="text-center text-light mt-3 pt-3 border-top border-black ">
+                    <p>Creado por Darwin Alfaro</p>
+                </article>
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>
